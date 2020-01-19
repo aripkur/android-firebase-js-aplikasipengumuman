@@ -1,0 +1,49 @@
+.navbar{
+    background-color: #03a9f4;
+    color: white;
+}
+
+body{
+    margin-top: 70px;
+    background-color: #f5f5f5 ;
+    margin-bottom: 70px;
+}
+.jumlah{
+    background-color: white;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.tombol-semua-pengumuman{
+    margin-top: 10px;
+    text-align: center;
+}
+footer{
+    background-color: #90caf9;
+    height: 50px; 
+    text-align: center;
+    padding-top: 10px;
+}
+.form-pengumuman button{
+    margin-top: 5px;
+}
+.daftar-pengumuman{
+    margin-top: 15px;
+}
+.pengumuman{
+    font-size: 18px; 
+    height: 80px;
+    background-color: white;
+    margin-left: 3px;
+    margin-bottom: 5px;
+}
+.konten1{
+    background-color: white;
+    padding: 10px;
+}
+.login{
+    width: 800px;
+    height: 200px;
+    background-color: antiquewhite;
+    padding: 10px;
+}

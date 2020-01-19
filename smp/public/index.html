@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    
+    <script src="assets/js/jquery.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.1.1/firebase-auth.js"></script>
+    <script src="assets/js/config.js"></script>
+
+    <title>SMPIT-Alfallah</title>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">SMPIT AL-FALLAH</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                <a class="nav-link active" href="index.html">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pengumuman.html">Pengumuman</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="user.html">User</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="setting.html">Setting</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" onClick="logOut()">Logout</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+      </nav>
+    <!-- TUTUP NAVBAR -->
+    <div class="container">
+
+        <!-- MENU DASHBOARD -->
+        <div id="menu-dashboard">
+            <!-- CARD -->
+            <div class="row">
+                <div class="col-sm jumlah">
+                    <h5>Pengumuman</h5>
+                    <p id="total-pengumuman">ambil data ...</p>
+                    <a href="pengumuman.html" >Lihat</a>
+                </div>
+                <div class="col-sm jumlah">
+                    <h5>User</h5>
+                    <p id="total-user">ambil data ...</p>
+                    <a href="user.html" >Lihat</a>
+                </div>
+            </div>
+            <!-- TUTUP CARD -->
+            <!-- PENGUMUMAN TERBARU -->
+            <div class="daftar-pengumuman">
+                <h5>Pengumuman Terbaru</h5>
+                <hr/>
+                <div id="konten-list-pengumuman-terbaru"></div>
+                <p id="loading" class="text-center">Sedang ambil data, tunggu ...</p>
+                <div class="tombol-semua-pengumuman">
+                    <a class="btn btn-primary" href="pengumuman.html" role="button">Lihat Semua Pengumuman</a>
+                </div>
+            </div>
+            <!-- TUTUP PENGUMUMAN TERBARU -->
+        </div>
+        <!-- TUTUP MENU DASHBOARD -->
+
+
+    </div>
+    
+    <!-- FOOTER -->
+    <footer class="fixed-bottom">
+        <p class="text-xs-center">&copy; Copyright 2019, SMPIT AL-FALLAH.</p>
+    </footer>
+        <!-- TUTUP FOOTER -->
+
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+ </body>
+</html>
