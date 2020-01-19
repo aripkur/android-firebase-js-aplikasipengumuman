@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "697041422066",
+    "firebase_url": "https://skripsi-da2ed.firebaseio.com",
+    "project_id": "skripsi-da2ed",
+    "storage_bucket": "skripsi-da2ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:697041422066:android:944243494c9b6176",
+        "android_client_info": {
+          "package_name": "com.gmail.arifkur10027.smpital_fallah"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "697041422066-qdjsph6n4nsk76ph236eogpc01v40v4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_yUKRgVdESzOOVf4SVxB3mhxMRE8GWXY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "697041422066-qdjsph6n4nsk76ph236eogpc01v40v4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

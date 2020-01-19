@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="5dp"
+    android:background="@color/colorPrimary"
+    tools:context="com.gmail.arifkur10027.smpital_fallah.AuthActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SMPIT ALFALLAH CAWAS"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MASUK"
+        android:id="@+id/btnMasuk"
+        android:layout_marginTop="100dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DAFTAR"
+        android:id="@+id/btnDaftar"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#fff"/>
+
+</LinearLayout>
+
